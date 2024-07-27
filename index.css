@@ -1,0 +1,134 @@
+body {
+    background-color: #1D2129;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    color: #FAF6F6;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 56px;
+    font-family: 'Cursed Timer ULIL';
+    margin-top: 20;
+}
+
+.timer-btn-container{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: row; 
+    text-align: center; 
+
+}
+
+#timer {
+    font-size: 64px;
+    font-family: 'Cursed Timer ULIL';
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.timer-btn{
+    font-family: "Inter", sans-serif;
+    color: #FAF6F6;
+    border: 2px solid #FAF6F6;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1D2129;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 200;
+}
+
+#start-timer{
+    margin-right: 30px;
+}
+
+.timer-btn:hover{
+    color: #6B7280;
+    border: 2px solid #6B7280;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+#period{
+    text-align: center;
+}
+
+#what-period {
+    width: 70px;
+    height: 50px;
+    border: 2px solid white; 
+    border-radius: 5px;
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Cursed Timer ULIL';
+    font-size: 50px;
+    color: rgb(99, 218, 70);
+}
+
+
+
+.title-wrapper{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-wrapper{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-increase{
+    font-family: 'Cursed Timer ULiL';
+    font-size: 20px; 
+    font-weight: 100;
+    color: #FDE68A;
+    background-color: #1D2129;
+    border: 2px solid #FDE68A;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+.btn-increase:hover {
+    color: #FBBF24;
+    border: 2px solid #FBBF24;
+}
+
+.title{
+    border:2px solid #111827;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px 20px;
+    background: #111827;
+    text-align: center;
+}
+
+.foul{
+    margin-top: 20px;
+}
+
+
+
